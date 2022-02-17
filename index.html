@@ -7,4 +7,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+<body>
+    <header>
+        <h1>Box Model, Box-Sizing & Box-Shadow</h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Exercise 1</h2>
+            <div class="box"></div>
+            <div class="marker-container">
+            <div class="marker"></div>
+                <span class="circle content"></span>
+                <span>Content</span>
+            <div class="marker">
+                <span class="circle padding"></span>
+                <span>Padding</span>
+            </div>
+            <div class="marker">
+                <span class="circle border"></span>
+                <span>Border</span>
+            </div>
+            <div class="marker">
+                <span class="circle margin"></span>
+                <span>Margin</span>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2>Exercise 2</h2>
+            <p>No border on these boxes</p>
+            <div class="container">
+                <div class="child-box"></div>
+                <div class="child-box"></div>
+                <div class="child-box"></div>
+             </div>
+             <hr>
+             <p>1px border on these boxes.</p>    
+             <div class="container">
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
+             </div>
+             <hr> 
+             <p>1px border on these boxes but they are in the same line</p>
+             <div class="container">
+                 <div class="child-box border-box"></div>
+                 <div class="child-box border-box"></div>
+                 <div class="child-box border-box"></div>
+             </div>
+        </section>
+    </main>
+   
+</body>
 </html>
