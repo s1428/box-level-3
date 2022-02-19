@@ -1,0 +1,109 @@
+/* My Reset */
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+
+body {
+    line-height: 1.5;
+    padding-bottom: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 25px 160px;
+}
+
+hr {
+    width: 500px;
+    border-style: dashed;
+    border-color: gray;
+    margin: 32px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding:  25px 180px;
+    margin: 32px 0;
+
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Box Styles */
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 0 auto;
+    border: 20px solid aquamarine;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 30px coral;
+}
+
+.marker-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: yellowgreen;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.padding {
+    background-color: aquamarine;
+}
+
+.border {
+    background-color: black;
+}
+
+.margin {
+    background-color: coral;
+}
+
+.marker {
+    margin: 0 16px;
+    display: inline-block;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid gray;
+    margin: 24px auto;
+    font-size: 0;
+}
+
+.child-box {
+   width: 180px;
+   height: 100px;
+   margin: 10px;
+   background-color: gray;
+   display: inline-block;    
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.border-box {
+    box-sizing: border-box;
+    border: 1px solid black;
+} 
